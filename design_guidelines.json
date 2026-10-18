@@ -1,0 +1,53 @@
+{
+  "app_type": "marketing_and_app",
+  "theme": "luxury_navy_gold",
+  "typography": {
+    "heading_font": "Playfair Display, serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "weights": ["300", "400", "500", "600", "700"]
+  },
+  "colors": {
+    "primary": "#0B192C",
+    "primary_dark": "#060F1A",
+    "gold": "#D4AF37",
+    "gold_light": "#F3E5AB",
+    "background": "#F8FAFC",
+    "card_bg": "#FFFFFF",
+    "text_main": "#0F172A",
+    "text_muted": "#64748B",
+    "border": "#E2E8F0"
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-[#0B192C]/80 border border-[#D4AF37]/30 shadow-2xl",
+    "luxury_shadow": "0 20px 40px -15px rgba(11, 25, 44, 0.15)",
+    "gold_gradient": "bg-gradient-to-r from-[#D4AF37] via-[#E5C158] to-[#C59B27]"
+  },
+  "image_urls": {
+    "hero": "https://images.unsplash.com/photo-1706808849780-7a04fbac83ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjByZWFsJTIwZXN0YXRlJTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBleHRlcmlvcnxlbnwwfHx8fDE3OTIzMjI4MTh8MA&ixlib=rb-4.1.0&q=85",
+    "property_villa": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBtb2RlcnklMjByZWFsJTIwZXN0YXRlJTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBleHRlcmlvcnxlbnwwfHx8fDE3OTIzMjI4MTh8MA&ixlib=rb-4.1.0&q=85",
+    "property_penthouse": "https://images.unsplash.com/photo-1670589953882-b94c9cb380f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBtb2RlcnklMjByZWFsJTIwZXN0YXRlJTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBleHRlcmlvcnxlbnwwfHx8fDE3OTIzMjI4MTh8MA&ixlib=rb-4.1.0&q=85",
+    "property_apartment": "https://images.pexels.com/photos/27307400/pexels-photo-27307400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "property_modern": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtb2RlcnklMjByZWFsJTIwZXN0YXRlJTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBleHRlcmlvcnxlbnwwfHx8fDE3OTIzMjI4MTh8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "sections_and_features": [
+    "Sticky navigation bar with logo, links, favorites badge, and List Property CTA",
+    "Hero section with headline 'Find Your Perfect Place to Call Home', filters for location, type, buy/rent, and price",
+    "Quick category tabs (Luxury Apartments, Independent Houses, Luxury Villas, Commercial, Residential Plots, Rental)",
+    "Featured Property Grid with realistic property cards, badges (Featured, Exclusive, New), quick save, and view details",
+    "Advanced interactive search & filtering system with buy/rent toggles, price slider, and instant results",
+    "Dedicated Property Detail modal/page with photo gallery, amenities, floor plans, neighborhood info, and inquiry form",
+    "About Us section with editable placeholder stats & brand story",
+    "Why Choose Us benefits grid with luxury aesthetic",
+    "Luxury Properties Showcase with VIP inquiry actions",
+    "How It Works 4-step guide for buyers and sellers",
+    "Client Testimonials (sample reviews)",
+    "List Your Property interactive multi-step modal form",
+    "Contact & Location section with interactive map placeholder, validated contact form, and direct WhatsApp inquiry link",
+    "Footer with newsletter subscription and quick links"
+  ],
+  "accessibility_and_testing": {
+    "data_testid_required": true,
+    "keyboard_navigation": true,
+    "contrast_ratio": "WCAG AA compliant (navy and gold on white/dark backgrounds)"
+  }
+}
